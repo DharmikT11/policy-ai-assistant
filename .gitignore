@@ -1,0 +1,30 @@
+# ==========================
+# 🔒 SECURITY (CRITICAL)
+# ==========================
+.env
+backend/.env
+backend/app/.env
+*.pem
+*.key
+
+# ==========================
+# 🐍 BACKEND (Python)
+# ==========================
+__pycache__/
+*.py[cod]
+venv/
+backend/venv/
+.pytest_cache/
+*.log
+backend/indexes/
+backend/uploads/
+
+# ==========================
+# ⚛️ FRONTEND (Node.js)
+# ==========================
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.DS_Store
+package-lock.json
